@@ -73,7 +73,9 @@ potentialOptions = potentialOptions.concat(lowerCasedCharacters)
 guaranteedOptions.push(getRandom(lowerCasedCharacters))
 }
 //need to use .concat .push for loops
-for (var i = 0; i < passwordOptions.characterLength - guaranteedOptions.length; i++) {
+for (var i = 0; i < passwordOptions.characterLength - guaranteedOptions.length; i++) 
+
+{
   var randomChar = getRandom(potentialOptions);
   finalResults.push(randomChar);
 }
