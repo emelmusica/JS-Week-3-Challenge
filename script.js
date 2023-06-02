@@ -73,7 +73,17 @@ potentialOptions = potentialOptions.concat(lowerCasedCharacters)
 guaranteedOptions.push(getRandom(lowerCasedCharacters))
 }
 //need to use .concat .push for loops
+for (var i = 0; i < passwordOptions.characterLength - guaranteedOptions.length; i++) {
+  var randomChar = getRandom(potentialOptions);
+  finalResults.push(randomChar);
 }
+
+finalResults = finalResults.concat(guaranteedOptions);
+finalResults = finalResults.join("");
+
+return finalResults;
+}
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
