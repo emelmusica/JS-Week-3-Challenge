@@ -23,3 +23,5 @@ THEN the password is either displayed in an alert or written to the page
 
 
 It showcases my skills that I've learned in Week three that have helped me implement arrays, functions and methods along with other important javascript properties. 
+
+![PW Gen SS](https://github.com/emelmusica/JS-Week-3-Challenge/assets/97601002/95eebff4-c5b5-4c5b-ba9d-c1800290deb0)
