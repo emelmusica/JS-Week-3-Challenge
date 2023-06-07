@@ -1,3 +1,7 @@
+Link to Github pages to view the page:
+
+https://emelmusica.github.io/JS-Week-3-Challenge/
+
 I created a password generating page with javascript with the provided HTML & CSS to fit this criteria:
 
 AS AN employee with access to sensitive data
